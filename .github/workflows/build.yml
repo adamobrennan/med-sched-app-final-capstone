@@ -10,7 +10,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      working-directory: .\med-sched-app-final-capstone\final-capstone\java
+      working-directory: .\final-capstone\java
     steps:
       - uses: actions/checkout@v2
         with:
